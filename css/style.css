@@ -1,0 +1,41 @@
+.navbar {
+  border: 5px solid rgb(39, 35, 26);
+  padding: 20px;
+  background-color: bisque;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.parallax {
+  background-image: url("https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+#header {
+  position: absolute;
+  z-index: 1000;
+  top: 200px;
+  left: 200px;
+  color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.text-box {
+  height: 600px;
+  padding: 50px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+.navbar {
+  margin-bottom: 0 !important;
+}
+
+/*# sourceMappingURL=style.css.map */

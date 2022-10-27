@@ -1,0 +1,23 @@
+{
+  "name": "final-project-mobile-",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "start" : "sass -w scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lorirocha/final-project-mobile-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lorirocha/final-project-mobile-/issues"
+  },
+  "homepage": "https://github.com/Lorirocha/final-project-mobile-#readme",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}
